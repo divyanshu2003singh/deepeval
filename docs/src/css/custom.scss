@@ -439,6 +439,14 @@ html[data-theme="dark"] .prism-code {
   border: 1px solid #334155;
 }
 
+/* Make code line number ::before elements smaller */
+[class*="codeLineNumber"]::before {
+  font-size: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
 /* Remove all the sidebar item ::before content */
 .sidebar-item-getting-started > .menu__list-item-collapsible > a::before,
 .sidebar-item-icon-llm-eval > .menu__list-item-collapsible > a::before,
@@ -538,3 +546,4 @@ html[data-theme="dark"] .sidebar-item-icon-others > a::before {
 .menu__list .menu__list {
   padding-left: 3px!important;
 }
+

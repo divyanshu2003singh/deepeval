@@ -17,11 +17,11 @@ from deepeval.metrics.utils import (
     trimAndLoadJson,
 )
 from deepeval.test_case import ConversationalTestCase, Turn
-from deepeval.conversation_simulator.template import (
+from deepeval.simulator.template import (
     ConversationSimulatorTemplate,
 )
 from deepeval.models import DeepEvalBaseLLM
-from deepeval.conversation_simulator.schema import (
+from deepeval.simulator.schema import (
     SimulatedInput,
     Scenario,
     UserProfile,
